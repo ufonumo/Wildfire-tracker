@@ -24,9 +24,7 @@ const Map = ({ eventData, center, zoom}) => {
                 bootstrapURLKeys={{ key: api_key }}
                 defaultCenter={center}
                 defaultZoom={zoom}
-                >
-                
-                
+                >                
                 {markers}
 
                 {locationInfo && <LocationInfoBox info={locationInfo}/> }
