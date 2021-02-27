@@ -20,6 +20,12 @@ body {
 
 }
 
+.map h2{
+  font-size: 35px;
+  padding: 20px;
+  text-align: center;
+}
+
 .location_icon {
   font-size: 30px;
   color: red;

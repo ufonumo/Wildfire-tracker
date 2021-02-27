@@ -20,6 +20,7 @@ const Map = ({ eventData, center, zoom}) => {
     })
     return (
         <div className='map'>
+            <h2>TRACK WILDFIRES ALL OVER THE WORLD</h2>
             <GoogleMapReact
                 bootstrapURLKeys={{ key: api_key }}
                 defaultCenter={center}
