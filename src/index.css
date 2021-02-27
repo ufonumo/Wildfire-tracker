@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.map{
+  width: 100%;
+  height: 100vh;
+  position: relative;
+
+}
+
+.location_icon {
+  font-size: 30px;
+  color: red;
+}
+
+.spinner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.location_info {
+  position: absolute;
+  top: -250px;
+  left: 60px;
+  width: 400px;
+  padding: 20px;
+  min-height: 200px;
+  background-color: rgba(15, 14, 14, 0.726);
+  color: #fff;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 20px;
+}
+
+.location_info h3{
+  font-size: 30px;
+}
+
+.location_info ul li, h3{
+  list-style: none;
+  line-height: 30px;
+  padding: 10px;
+}
+
+@media(max-width: 768px){
+  .location_info {
+    position: absolute;
+    top: -250px;
+    left: -180px;
+    width: 90%;
+    padding: 20px;
+    min-height: 200px;
+    background-color: rgba(15, 14, 14, 0.726);
+    color: #fff;
+    font-size: 15px;
+    line-height: 25px;
+    border-radius: 20px;
+  }
+}
